@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.vivek.service.CreateCaseService;
+import com.vivek.service.ICreateCaseService;
 
 @RestController
 public class CreateCaseController {
 	
-	private CreateCaseService caseService;
+	private ICreateCaseService caseService;
 
 	@GetMapping("create/{appId}")
 	public ResponseEntity<Long> createCase(@PathVariable("appId") Long appId){
