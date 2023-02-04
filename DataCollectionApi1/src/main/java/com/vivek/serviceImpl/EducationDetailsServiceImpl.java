@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vivek.binding.EducationDetails;
 import com.vivek.repository.EducationDetailsRepository;
-import com.vivek.service.EducationDetailService;
+import com.vivek.service.IEducationDetailService;
 
-public class EducationDetailsServiceImpl implements EducationDetailService {
+public class EducationDetailsServiceImpl implements IEducationDetailService {
 
 	@Autowired
 	private EducationDetailsRepository repo;

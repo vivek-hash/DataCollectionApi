@@ -2,7 +2,7 @@ package com.vivek.service;
 
 import com.vivek.binding.IncomeDetails;
 
-public interface IncomeDetailService {
+public interface IIncomeDetailService {
 
 	public String saveIncomeDetails(IncomeDetails incomeDetails);
 }

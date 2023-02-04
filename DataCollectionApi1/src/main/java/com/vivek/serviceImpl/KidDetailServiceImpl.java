@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vivek.binding.KidDetails;
 import com.vivek.repository.KidsDetailsRepository;
-import com.vivek.service.KidDetailService;
+import com.vivek.service.IKidDetailService;
 
-public class KidDetailServiceImpl implements KidDetailService {
+public class KidDetailServiceImpl implements IKidDetailService {
 
 	@Autowired
 	private KidsDetailsRepository repo;

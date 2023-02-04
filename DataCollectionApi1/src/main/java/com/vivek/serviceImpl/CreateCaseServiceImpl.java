@@ -3,9 +3,9 @@ package com.vivek.serviceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import com.vivek.repository.CreateCaseRepository;
-import com.vivek.service.CreateCaseService;
+import com.vivek.service.ICreateCaseService;
 
-public class CreateCaseServiceImpl  implements CreateCaseService{
+public class CreateCaseServiceImpl  implements ICreateCaseService{
 
 	@Autowired
 	private CreateCaseRepository repo;

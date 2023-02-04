@@ -1,13 +1,13 @@
 package com.vivek.controller;
 
-import javax.ws.rs.core.Response;
+
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vivek.binding.CreateCase;
+
 import com.vivek.service.CreateCaseService;
 
 @RestController

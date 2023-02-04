@@ -2,7 +2,7 @@ package com.vivek.service;
 
 import com.vivek.binding.PlanSelection;
 
-public interface PlanSelectionService {
+public interface IPlanSelectionService {
 
 	public String savePlan(PlanSelection plan);
 }

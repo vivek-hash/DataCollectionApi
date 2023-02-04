@@ -1,6 +1,6 @@
 package com.vivek.service;
 
-public interface CreateCaseService {
+public interface ICreateCaseService {
 
 	public Integer findAppId();
 	public Long getCaseNumber();
