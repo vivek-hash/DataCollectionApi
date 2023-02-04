@@ -1,10 +1,14 @@
 package com.vivek.serviceImpl;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import com.vivek.repository.CreateCaseRepository;
 import com.vivek.service.CreateCaseService;
 
 public class CreateCaseServiceImpl  implements CreateCaseService{
 
+	@Autowired
+	private CreateCaseRepository repo;
 	@Override
 	public Integer findAppId() {
 		// TODO Auto-generated method stub

@@ -1,10 +1,15 @@
 package com.vivek.serviceImpl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.vivek.binding.EducationDetails;
+import com.vivek.repository.EducationDetailsRepository;
 import com.vivek.service.EducationDetailService;
 
 public class EducationDetailsServiceImpl implements EducationDetailService {
 
+	@Autowired
+	private EducationDetailsRepository repo;
 	@Override
 	public Integer getCaseId() {
 		
