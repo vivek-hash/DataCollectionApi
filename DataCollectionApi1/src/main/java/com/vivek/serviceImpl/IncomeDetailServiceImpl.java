@@ -15,7 +15,8 @@ public class IncomeDetailServiceImpl implements IIncomeDetailService {
 	@Override
 	public String saveIncomeDetails(IncomeDetails incomeDetails) {
 		
-		return null;
+		IncomeDetails save =repo.save(incomeDetails);
+		return "details saved";
 	}
 
 	
